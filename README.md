@@ -2,8 +2,6 @@
 
 An end-to-end Power BI dashboard analyzing **19,700 retail bike sales orders** for Hero MotoCorp across India (2020–2025), covering sales performance, customer demographics, and model-level deep dives — built from a synthetically generated, realistic retail dataset.
 
-![Overview](screenshots/01_sales_analysis.png)
-
 ---
 
 ## 📊 About the Project
@@ -25,7 +23,7 @@ This dashboard simulates a real-world two-wheeler retail analytics use case for 
 ### 1️⃣ Sales Analysis (Overview)
 The landing page — a high-level executive summary of overall business performance.
 
-![Sales Analysis](screenshots/01_sales_analysis.png)
+![Sales Analysis](Sales.png)
 
 **Highlights:**
 - KPI cards: Net Sales (₹217.01 Cr), Total Orders (19,700), Gross Profit (₹53.67 Cr), Gross Margin % (24.73%), Avg Order Value (₹110.16K), Avg Rating (4.20)
@@ -39,7 +37,7 @@ The landing page — a high-level executive summary of overall business performa
 ### 2️⃣ Customers & Product
 A deep dive into customer demographics and how they interact with product segments.
 
-![Customers & Product](screenshots/02_customers_and_product.png)
+![Customers & Product](Customers.png)
 
 **Highlights:**
 - KPI cards: Best Margin Segment, Top Selling Model, Highest Rated Model, Average Discount, Gender Split, Top Age Group
@@ -52,7 +50,7 @@ A deep dive into customer demographics and how they interact with product segmen
 ### 3️⃣ Bike Models
 A model-selector page for exploring individual bike specs and performance.
 
-![Bike Models](screenshots/03_bike_models.png)
+![Bike Models](Model2.png)
 
 **Highlights:**
 - Scrollable model gallery (image thumbnails, powered by `Hero_bike_img.csv`)
@@ -73,18 +71,18 @@ All three pages share consistent slicers for **Year**, **Month**, and **Bike_Seg
 
 | File | Description |
 |---|---|
-| `Hero_MotoCorp_Dashboard.pbix` | Power BI dashboard file |
+| `bike_dashboard.pbix` | Power BI dashboard file |
 | `Hero_All_Dataset.csv` | Core sales dataset (19,700 orders) |
 | `Hero_bike_img.csv` | Bike model → image URL mapping |
 | `icons_image` | Icons used in KPI cards and Model Page |
-| `screenshot` | Dashboard page screenshots used in this README |
+| `Sales.png, Customers.png, Model2.png` | Dashboard page screenshots used in this README |
 
 ---
 
 ## 🚀 How to Use
 
 1. Clone this repository
-2. Open `Hero_MotoCorp_Dashboard.pbix` in Power BI Desktop
+2. Open `bike_dashboard.pbix` in Power BI Desktop
 3. If prompted, update the data source paths to point to the CSV files locally
 4. Refresh the data model and explore
 
@@ -99,5 +97,5 @@ All three pages share consistent slicers for **Year**, **Month**, and **Bike_Seg
 
 ## 👤 Author
 
-**Arun**
-🔗 [GitHub](https://github.com/SIBA35)
+**Siba Prasad Nayak**
+🔗 [LinkedIn](https://www.linkedin.com/in/siba-prasad-nayak-86ab48362/)
